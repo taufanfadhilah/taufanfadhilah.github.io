@@ -1,6 +1,6 @@
-import React from 'react'
-import Badge from './Badge'
-
+import React from "react";
+import Badge from "./Badge";
+import { Link } from "../helpers/routes";
 const Card = () => (
   <div className="my__card col-md-4 col-sm-6">
     <img
@@ -9,9 +9,9 @@ const Card = () => (
       alt=""
     />
     <div className="content">
-      <a className="text__weight_600 text__size_18 text__white" href="#">
-        Redux
-      </a>
+      <Link route="blog.detail" params={{ id: 1 }}>
+        <a className="text__weight_600 text__size_18 text__white">Redux</a>
+      </Link>
       <div className="row m-0">
         <Badge text="React" color="blue" />
         <Badge text="Javascript" color="yellow" />
@@ -39,4 +39,4 @@ const Card = () => (
   </div>
 );
 
-export default Card
+export default Card;

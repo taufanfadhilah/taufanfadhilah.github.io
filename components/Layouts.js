@@ -18,7 +18,7 @@ const Layouts = ({ children }) => (
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       ></link>
-      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="/css/style.css" />
       <link
         href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
         rel="stylesheet"
@@ -73,7 +73,7 @@ const Layouts = ({ children }) => (
                 >
                   <img
                     className="img-social"
-                    src="images/linkedin.png"
+                    src="/images/linkedin.png"
                     alt=""
                   />
                 </a>
@@ -83,7 +83,7 @@ const Layouts = ({ children }) => (
                 >
                   <img
                     className="img-social"
-                    src="images/instagram.png"
+                    src="/images/instagram.png"
                     alt=""
                   />
                 </a>
@@ -91,13 +91,13 @@ const Layouts = ({ children }) => (
                   href="mailto: taufanfadhilahiskandar@gmail.com"
                   target="_blank"
                 >
-                  <img className="img-social" src="images/mail.png" alt="" />
+                  <img className="img-social" src="/images/mail.png" alt="" />
                 </a>
                 <a
                   href="https://medium.com/@taufanfadhilahiskandar"
                   target="_blank"
                 >
-                  <img className="img-social" src="images/medium.png" alt="" />
+                  <img className="img-social" src="/images/medium.png" alt="" />
                 </a>
               </div>
               <hr />
