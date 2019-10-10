@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { Link } from "../helpers/routes";
 
 const Layouts = ({ children }) => (
   <>
@@ -66,37 +67,55 @@ const Layouts = ({ children }) => (
               <p className="text__size_14">Front End Engineer</p>
               <p className="text__size_14">5 Years Experienced</p>
               <div className="row mt-10" style={{ display: "block" }}>
-                <a href="https://www.linkedin.com/in/taufanfadhilahiskandar" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/taufanfadhilahiskandar"
+                  target="_blank"
+                >
                   <img
                     className="img-social"
                     src="images/linkedin.png"
                     alt=""
                   />
                 </a>
-                <a href="https://www.instagram.com/taufanfadhilah" target="_blank">
+                <a
+                  href="https://www.instagram.com/taufanfadhilah"
+                  target="_blank"
+                >
                   <img
                     className="img-social"
                     src="images/instagram.png"
                     alt=""
                   />
                 </a>
-                <a href="mailto: taufanfadhilahiskandar@gmail.com" target="_blank">
+                <a
+                  href="mailto: taufanfadhilahiskandar@gmail.com"
+                  target="_blank"
+                >
                   <img className="img-social" src="images/mail.png" alt="" />
                 </a>
-                <a href="https://medium.com/@taufanfadhilahiskandar" target="_blank">
+                <a
+                  href="https://medium.com/@taufanfadhilahiskandar"
+                  target="_blank"
+                >
                   <img className="img-social" src="images/medium.png" alt="" />
                 </a>
               </div>
               <hr />
-              <a className="text__black" href="#">
-                <p className="mt-10">About Me</p>
-              </a>
-              <a className="text__black" href="#">
-                <p className="mt-10">Projects</p>
-              </a>
-              <a className="text__black" href="#">
-                <p className="mt-10">Blog</p>
-              </a>
+              <Link route="index">
+                <a className="text__black">
+                  <p className="mt-10">About Me</p>
+                </a>
+              </Link>
+              <Link route="projects">
+                <a className="text__black">
+                  <p className="mt-10">Projects</p>
+                </a>
+              </Link>
+              <Link route="blog">
+                <a className="text__black">
+                  <p className="mt-10">Blog</p>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
