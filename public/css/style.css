@@ -58,6 +58,10 @@ a {
   color: #212121;
 }
 
+.text__white {
+  color: #fff;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
