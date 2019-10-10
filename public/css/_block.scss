@@ -1,0 +1,22 @@
+@import "_colors.scss";
+$font-family: "Poppins", sans-serif;
+
+body {
+    background-color: $black;
+    color: $white;
+    min-height: 680px;
+}
+
+p {
+    font-family: "Poppins";
+    margin-bottom: 0px;
+}
+
+a {
+    color: $white;
+}
+
+.bg-white {
+    background-color: $white;
+    color: $black;
+}
