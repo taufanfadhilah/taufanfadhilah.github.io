@@ -2,14 +2,16 @@ import React from 'react'
 import Badge from './Badge'
 
 const Card = () => (
-  <div className="cards col-md-4 col-sm-6">
+  <div className="my__card col-md-4 col-sm-6">
     <img
       className="img-fluid"
       src="http://www.unoosa.org/res/timeline/index_html/space-2.jpg"
       alt=""
     />
     <div className="content">
-      <a className="text__weight_600 text__size_18 text__white" href="#">Redux</a>
+      <a className="text__weight_600 text__size_18 text__white" href="#">
+        Redux
+      </a>
       <div className="row m-0">
         <Badge text="React" color="blue" />
         <Badge text="Javascript" color="yellow" />
@@ -21,23 +23,6 @@ const Card = () => (
       </p>
     </div>
     <style jsx>{`
-      .cards {
-        min-height: 300px;
-        padding: 0px 5px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        position: relative;
-        top: 0;
-        transition: top ease 0.5s;
-        margin-bottom: 16px;
-      }
-      .cards:hover {
-        top: -10px;
-      }
       .content {
         padding: 16px;
       }
