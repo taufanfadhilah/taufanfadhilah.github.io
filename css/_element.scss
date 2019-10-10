@@ -1,0 +1,98 @@
+@import "_colors.scss";
+
+// Start Text
+.text__size_12 {
+  font-size: 12px;
+}
+
+.text__size_14 {
+  font-size: 14px;
+}
+
+.text__size_16 {
+  font-size: 16px;
+}
+
+.text__size_18 {
+  font-size: 18px;
+}
+
+.text__size_20 {
+  font-size: 20px;
+}
+
+.text__size_22 {
+  font-size: 22px;
+}
+
+.text__size_24 {
+  font-size: 24px;
+}
+
+.text__weight_600 {
+  font-weight: 600;
+}
+
+.text__justify {
+  text-align: justify;
+}
+
+.text__black {
+  color: $black;
+}
+
+.text__white {
+  color: $white;
+}
+
+// End Text
+
+// Start Content
+
+.my__card {
+  position: relative;
+  top: 0;
+  min-height: 300px;
+  padding: 0px 5px;
+  margin-bottom: 16px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: top ease 0.5s;
+}
+.my__card:hover {
+  top: -10px;
+}
+
+.my__badge {
+  padding: 2px 8px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 6px;
+  margin: 2px;
+}
+
+.badge__red {
+  background-color: #b71c1c;
+  color: #ef9a9a;
+}
+.badge__blue {
+  background-color: #0d47a1;
+  color: #90caf9;
+}
+.badge__green {
+  background-color: #1b5e20;
+  color: #a5d6a7;
+}
+.badge__yellow {
+  background-color: #f57f17;
+  color: #fff59d;
+}
+.badge__white {
+  background-color: #f5f5f5;
+  color: #424242;
+}
+
+// End Content
