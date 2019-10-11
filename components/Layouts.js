@@ -65,7 +65,9 @@ const Layouts = ({ children }) => (
                 Taufan Fadhilah Iskandar
               </p>
               <p className="text__size_14">Front End Engineer</p>
-              <p className="text__size_14">{new Date().getFullYear() - 2014} Years Experienced</p>
+              <p className="text__size_14">
+                {new Date().getFullYear() - 2014} Years Experienced
+              </p>
               <div className="row mt-10" style={{ display: "block" }}>
                 <a
                   href="https://www.linkedin.com/in/taufanfadhilahiskandar"
