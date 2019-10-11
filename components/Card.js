@@ -7,8 +7,10 @@ const Card = ({ blog }) => (
     <img className="img-fluid" src={blog.thumbnail} alt="" />
     <div className="content">
       <Link route="blog.detail" params={{ id: 1 }}>
-        <a className="text__weight_600 text__size_18 text__white">
-          {blog.title}
+        <a>
+          <p className="title text__weight_600 text__size_18 text__white">
+            {blog.title}
+          </p>
         </a>
       </Link>
       <div className="row m-0">
@@ -16,7 +18,7 @@ const Card = ({ blog }) => (
           <Badge key={index} text={tag.text} color={tag.color} />
         ))}
       </div>
-      <p className="text__size_12 text__white mt-10 text__justify">
+      <p className="desc text__size_12 text__white mt-10 text__justify">
         {blog.desc}
       </p>
     </div>
@@ -32,6 +34,20 @@ const Card = ({ blog }) => (
       }
       a {
         color: white;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 100px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      .desc {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 100px;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
       }
     `}</style>
   </div>
