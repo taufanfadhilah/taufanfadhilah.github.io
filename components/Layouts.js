@@ -58,7 +58,7 @@ const Layouts = ({ children }) => (
             <div className="col-md-12 text-center">
               <img
                 className="img-avatar"
-                src="https://media.gettyimages.com/photos/showing-off-his-pearly-whites-picture-id483627817?s=612x612"
+                src="https://avatars0.githubusercontent.com/u/6770459?s=460&v=4"
                 alt=""
               />
               <p className="text__size_18 text__weight_600 mt-10">
