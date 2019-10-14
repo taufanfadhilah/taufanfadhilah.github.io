@@ -1,5 +1,6 @@
 // BLOG TEMPLATE
 // {
+//     id: 1,
 //     thumbnail:
 //       "https://e3.365dm.com/19/03/768x432/skynews-meteor-explosion-generic_4612421.jpg?20190318083957",
 //     title: "Blog 1",
@@ -19,6 +20,7 @@
 //   }
 const blogs = [
   {
+    id: 10,
     thumbnail:
       "https://d26bwjyd9l0e3m.cloudfront.net/wp-content/uploads/2018/06/PROMO_MARKETING_PDC18-53.png",
     title: "Tech In Asia PDC ‘18",
@@ -38,6 +40,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/resume-tech-in-asia-pdc-18-36fffbb5ab24"
   },
   {
+    id: 9,
     thumbnail: "https://miro.medium.com/max/1536/1*4Zga7doxGAObi15GO6bAbQ.png",
     title: "Create a Recycler View",
     tags: [
@@ -60,6 +63,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/create-a-recycler-view-538746acc8e7"
   },
   {
+    id: 8,
     thumbnail: "https://miro.medium.com/max/1536/1*4Zga7doxGAObi15GO6bAbQ.png",
     title: "Using Keyboards, Input Controls, Alerts, and Pickers",
     tags: [
@@ -82,6 +86,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/using-the-app-bar-and-tabs-for-navigation-51def455f525"
   },
   {
+    id: 7,
     thumbnail: "https://miro.medium.com/max/1536/1*8bm1Q2ohveik_oiktHdO_A.png",
     title: "Using Keyboards, Input Controls, Alerts, and Pickers",
     tags: [
@@ -104,6 +109,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/using-keyboards-input-controls-alerts-and-pickers-d78e7f5a8760"
   },
   {
+    id: 6,
     thumbnail: "https://miro.medium.com/max/1536/1*S9784jGxrqKajOfqRObPdA.png",
     title: "Using The Android Support Librarie",
     tags: [
@@ -126,6 +132,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/using-the-android-support-libraries-d82398787c05"
   },
   {
+    id: 5,
     thumbnail: "https://miro.medium.com/max/664/1*baKQTzJs46gCkk_8x_sB_g.png",
     title: "Testing Apps With Unit Tests",
     tags: [
@@ -148,6 +155,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/testing-apps-with-unit-tests-5e97cfe04796"
   },
   {
+    id: 4,
     thumbnail: "https://miro.medium.com/max/2730/1*UwSJ8g2-vQ2igI-q54gEmw.png",
     title: "Using the Debugger",
     tags: [
@@ -170,6 +178,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/using-the-debugger-241c00cd2b23"
   },
   {
+    id: 3,
     thumbnail: "https://miro.medium.com/max/1536/1*WUtdSiQAkVBZOddYQX7Etg.png",
     title: "Start Activities with Implicit Intents",
     tags: [
@@ -192,6 +201,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/start-activities-with-implicit-intents-34cd34849a0f"
   },
   {
+    id: 2,
     thumbnail: "https://miro.medium.com/max/2602/1*oeCkHnnG27NtLrUDcYjHTw.png",
     title: "Activity Lifecycle and Instance State",
     tags: [
@@ -214,6 +224,7 @@ const blogs = [
       "https://medium.com/@taufanfadhilahiskandar/activity-lifecycle-and-instance-state-8ce2e97a97c5"
   },
   {
+    id: 1,
     thumbnail: "https://miro.medium.com/max/1248/1*pUBpLgOLWyX0bUmJ1Pd2Jg.png",
     title: "Create and Start Activities",
     tags: [

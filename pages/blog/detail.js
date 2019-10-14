@@ -1,18 +1,21 @@
 import React from "react";
 import Layouts from "../../components/Layouts";
 import { Link } from "../../helpers/routes";
-function Detail() {
+import { useSelector } from "react-redux";
+function Detail({ query }) {
+  const blog = useSelector(state => state.blogs.filter(value => value.id == query.id));
+  
   return (
     <Layouts>
       <div className="row">
         <Link route="blog">
           <a className="pt-1 mr-2">&larr; </a>
         </Link>
-        <h3>Redux</h3>
+        <h3>{blog[0].title}</h3>
       </div>
       <iframe
-        src="https://medium.com/laravel-web-id/bagaimana-mengubah-format-tanggal-di-laravel-d5203acc4bf4"
-        frameborder="0"
+        src={blog[0].link}
+        frameBorder="0"
       ></iframe>
       <style jsx>{`
         a {
@@ -33,5 +36,9 @@ function Detail() {
     </Layouts>
   );
 }
+
+Detail.getInitialProps = async ({ query }) => {
+  return { query };
+};
 
 export default Detail;
