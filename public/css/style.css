@@ -18,6 +18,10 @@ a {
   color: #212121;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .text__size_12 {
   font-size: 12px;
 }
