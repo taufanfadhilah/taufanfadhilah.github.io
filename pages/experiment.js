@@ -4,7 +4,7 @@ import Card from "../components/Card";
 import { useSelector } from "react-redux";
 
 function Blog() {
-  const blogs = useSelector(state => state.blogs);
+  const blogs = useSelector(state => state.experiments);
   const [page, setPage] = useState(0);
 
   return (
@@ -14,12 +14,12 @@ function Blog() {
           className="col"
           style={{ paddingBottom: 20, borderBottom: "1px solid #ffffff" }}
         >
-          <h3>Blog</h3>
+          <h3>Experiments</h3>
         </div>
       </div>
       <div className="row mt-3 p-3">
         {blogs.slice(page * 6, 6 + page * 6).map((blog, index) => (
-          <Card key={index} blog={blog} type='blog' />
+          <Card key={index} blog={blog} type="experiment" />
         ))}
       </div>
       <div className="row text-center">

@@ -2,11 +2,11 @@ import React from "react";
 import Badge from "./Badge";
 import { Link } from "../helpers/routes";
 
-const Card = ({ blog }) => (
+const Card = ({ blog, type }) => (
   <div className="my__card col-md-4 col-sm-6">
     <img className="img-fluid" src={blog.thumbnail} alt="" />
     <div className="content">
-      <Link route="blog.detail" params={{ id: blog.id }}>
+      <Link route={type == 'blog' ? 'blog.detail' : 'experiment.detail'} params={{ id: blog.id }}>
         <a>
           <p className="title text__weight_600 text__size_18 text__white">
             {blog.title}
