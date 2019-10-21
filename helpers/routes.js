@@ -6,7 +6,8 @@ module.exports = routes()
   // Blog
   .add("blog")
   .add('blog.detail', '/blog/:id', 'blog/detail')
-  // Projects
-  .add("projects");
+  // Experiments
+  .add("experiment")
+  .add('experiment.detail', '/experiment/:id', 'experiment/detail');
 
 
