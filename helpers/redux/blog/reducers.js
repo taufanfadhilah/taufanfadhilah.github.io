@@ -20,6 +20,30 @@
 //   }
 const blogs = [
   {
+    id: 11,
+    thumbnail: "https://miro.medium.com/max/640/1*JkwjITEal0SnyrIKEB3qLg.jpeg",
+    title:
+      "GSuite semua orang dapat berkolaborasi (Google Cloud Summit 2019, Jakarta)",
+    tags: [
+      {
+        text: "Event",
+        color: "white"
+      },
+      {
+        text: "Bahasa",
+        color: "red"
+      },
+      {
+        text: "Google Cloud Summit",
+        color: "blue"
+      }
+    ],
+    desc:
+      "Remote Working adalah sesuatu yang tak asing diucapkan dikalangan orang-orang IT, entah dia programmer, devops, maupun designer. Remote Working adalah suatu kegiatan dimana orang-orang bekerja diluar kantor, namun komunikasi tetap berlangsung secara baik. Remote Working dapat dilakukan dimana saja, di rumah, coworking space, coffee shop, maupun di kereta atau pesawat.",
+    link:
+      "https://medium.com/@taufanfadhilahiskandar/gsuite-membuat-semua-orang-dapat-berkolaborasi-google-cloud-summit-2019-jakarta-8782dd90386a"
+  },
+  {
     id: 10,
     thumbnail:
       "https://d26bwjyd9l0e3m.cloudfront.net/wp-content/uploads/2018/06/PROMO_MARKETING_PDC18-53.png",
