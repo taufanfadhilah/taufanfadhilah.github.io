@@ -20,6 +20,34 @@
 //   }
 const blogs = [
   {
+    id: 12,
+    thumbnail:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzQ9oMP9AOLwHNAv8B_gamZPQ_7xftFXeR8kPoKLym19_tl5x&s",
+    title: "Pengalaman Migrasi dari Next.js ke Nuxt.js",
+    tags: [
+      {
+        text: "Nuxt js",
+        color: "green"
+      },
+      {
+        text: "Vue js",
+        color: "green"
+      },
+      {
+        text: "Front End Development",
+        color: "blue"
+      },
+      {
+        text: "Bahasa",
+        color: "red"
+      }
+    ],
+    desc:
+      "Nuxt.js adalah sebuah framework untuk membangun Website Front End berbasis Vue js. Perbedaan antara Nuxt dengan Vue adalah cara dia rendering websitenya, kalau Nuxt di render dari server atau istilahnya SSR (Server Side Rendering) kalau Vue di render di browser user atau istilahnya CSR (Client Side Rendering).",
+    link:
+      "https://medium.com/@taufanfadhilahiskandar/pengalaman-migrasi-dari-next-js-ke-nuxt-js-968a43854c36"
+  },
+  {
     id: 11,
     thumbnail: "https://miro.medium.com/max/640/1*JkwjITEal0SnyrIKEB3qLg.jpeg",
     title:
