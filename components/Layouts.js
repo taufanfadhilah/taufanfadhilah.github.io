@@ -139,6 +139,11 @@ const Layouts = ({ children }) => {
                     <p className="mt-10">Experiments</p>
                   </a>
                 </Link>
+                <Link route="design">
+                  <a className="text__black">
+                    <p className="mt-10">Design</p>
+                  </a>
+                </Link>
                 <Link route="blog">
                   <a className="text__black">
                     <p className="mt-10">Blog</p>
