@@ -11,7 +11,7 @@ const Layouts = ({ children }) => {
     gtag("js", new Date());
     gtag("config", "UA-150825060-1");
   }, []);
-  
+
   return (
     <>
       <Head>
@@ -117,6 +117,13 @@ const Layouts = ({ children }) => {
                     <img
                       className="img-social"
                       src="/images/medium.png"
+                      alt=""
+                    />
+                  </a>
+                  <a href="https://dribbble.com/taufanfadhilah" target="_blank">
+                    <img
+                      className="img-social"
+                      src="/images/dribbble.png"
                       alt=""
                     />
                   </a>
