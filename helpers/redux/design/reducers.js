@@ -18,6 +18,21 @@
 //   }
 const designs = [
   {
+    id: 3,
+    thumbnail:
+      "https://cdn.dribbble.com/users/2633414/screenshots/9897371/media/405569c9fc061f5fcdedd8661112e601.png",
+    title: "Property Listing",
+    tags: [
+      {
+        text: "Web App",
+        color: "green"
+      }
+    ],
+    desc:
+      "Trying to re-design Property website, make clearly and put important informations only.",
+    link: "https://dribbble.com/shots/9897371-Property-Listing"
+  },
+  {
     id: 2,
     thumbnail:
       "https://cdn.dribbble.com/users/2633414/screenshots/9864110/media/a485ecc744f8b180aeade52f1b304da3.png",
